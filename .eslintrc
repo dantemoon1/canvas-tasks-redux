@@ -1,0 +1,39 @@
+{
+  "plugins": ["react", "jest", "@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/all",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/react",
+    "plugin:jest/recommended"
+  ],
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "react/require-default-props": 0,
+    "react/prop-types": 0,
+    "react/jsx-max-depth": 0
+  },
+  "globals": {
+    "chrome": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "jest/globals": true
+  }
+}

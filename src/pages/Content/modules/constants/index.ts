@@ -1,0 +1,20 @@
+import { FinalAssignment, Options } from '../types';
+import JSONAssignmentDefaults from './defaults/assignmentDefaults.json';
+import JSONOptionsDefaults from './defaults/optionsDefaults.json';
+
+export const MAX_MARKED_ASSIGNMENTS = 400;
+
+export const AssignmentDefaults = JSONAssignmentDefaults as FinalAssignment;
+export const OptionsDefaults = JSONOptionsDefaults as Options;
+
+export const THEME_COLOR = 'var(--ic-brand-global-nav-bgd)';
+export const THEME_COLOR_LIGHT = 'rgba(199, 205, 209)';
+
+// for platforms that don't have dashboard colors by default
+export const DEFAULT_DASHBOARD_COLORS = [
+  '#4989F4',
+  '#DC4B3F',
+  '#7E57C2',
+  '#1AA260',
+  '#FFB300',
+];

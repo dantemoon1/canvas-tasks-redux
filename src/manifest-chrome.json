@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tasks for Canvas Redux",
+  "description": "A better to-do list sidebar for Canvas.",
+  "version": "2.0.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon-128.png"
+    }
+  },
+  "options_page": "options.html",
+  "background": { "service_worker": "background.bundle.js" },
+  "permissions": ["storage", "scripting", "activeTab", "alarms"],
+  "optional_host_permissions": ["https://*/*"],
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
