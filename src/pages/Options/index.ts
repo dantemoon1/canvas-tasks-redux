@@ -13,7 +13,7 @@ function applyDefaults(options: Options): Options {
 
 /* Set the logo and title to the GitHub repo */
 function setStoreLinks() {
-  const storeURL = 'https://github.com/jtcheng26/canvas-task-extension';
+  const storeURL = 'https://github.com/dantemoon1/canvas-tasks-redux';
 
   Array.from(document.getElementsByTagName('a')).forEach((elem) => {
     if (elem.className === 'store-link') elem.href = storeURL;

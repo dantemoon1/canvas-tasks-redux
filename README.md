@@ -4,7 +4,7 @@ A privacy-respecting, open-source task sidebar for Canvas LMS.
 
 ## Why this fork?
 
-This is a community-maintained fork of Jeffrey Cheng's [Tasks for Canvas](https://github.com/jtcheng26/canvas-task-extension). The goal was to rebuild it with a narrower, user-controlled permissions model and strip any external tracking or analytics, while keeping all the original student features intact.
+This is a community-maintained fork of Jeffrey Cheng's [Tasks for Canvas](https://github.com/UseBetterCanvas/canvas-task-extension). The goal was to rebuild it with a narrower, user-controlled permissions model and strip any external tracking or analytics, while keeping all the original student features intact.
 
 ## What makes this different?
 
